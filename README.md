@@ -63,13 +63,13 @@ Note: The model has never been shown these images before and is classifying each
 
 **Future Improvements**
 
-In my testing the model does poorly when the camera zoom and camera altitude differ from those of the Potsdam dataset. When I imported images that did not respect the zoom or altitude specifications like the [Dubai aerial imagery dataset]([url](https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery)) I frequently found that the model performed poorly. To address this issue, an even richer dataset is required. One that includes variations in height, zoom, time of day, time of year, etc. Doing this would likely require a blend of drone and satellite images. It seems feasible to write a program that stores images of a random places in the world at random zoom levels using satellite imagery but it's not something I've explored yet. 
+In my testing the model does poorly when the camera zoom and camera altitude differ from those of the Potsdam dataset. When I imported images that did not respect the zoom or altitude specifications, like the [Dubai aerial imagery dataset]([url](https://www.kaggle.com/datasets/humansintheloop/semantic-segmentation-of-aerial-imagery)), I frequently found that the model performed poorly. To address this issue, an even richer dataset is required. One that includes variations in height, zoom, time of day, time of year, etc. Doing this would likely require a blend of drone and satellite images. It seems feasible to write a program that stores images of a random places in the world at random zoom levels using satellite imagery but it's not something I've explored yet. 
 
 The model was trained and tested on images with square dimensions. Much of the code was written with this assumption in mind and in the future, the model should be generalized to address this.
 
 **What I Learned**
 
-This project has introduced me to the world of machine learning and given me a new interest that I hope to pursue into the future. I was challenged to build a complex model based on a mathematical operation I was unfamiliar with and was able to realize the goals of this project. Specifically, I learned about UNET, loss functions, and was exposed to a myriad of python libraries I was unfamilair with.
+This project has introduced me to the world of machine learning and given me a new interest that I hope to pursue into the future. I was challenged to build a complex model and was able to realize the goals of this project. Specifically, I learned about UNET, loss functions, and was exposed to a myriad of python libraries I was unfamilair with.
 
 **Helpful Links**
 
