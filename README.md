@@ -34,7 +34,7 @@ Below, I've included an image showing the original patch, the corresponding grou
 | Ground  | Cyan  |
 | Unlabeled      | Red  |
 ![image](https://github.com/tnormand262/UNET_Classifier/assets/160414926/eb423e00-4cf2-441d-a0af-f7fedf418f80)
-Note: The original image shown here belongs to the validation testset so the model has never "seen" this image before. The model runs on patches of this size in less than 5 seconds.
+Note: The original image shown here belongs to the validation set so the model has never "seen" this image before. The model runs on patches of this size in less than 5 seconds.
 
 The model does a great job preserving the features of the original image and arguably does a better job classifying the image than the ground truth mask labeled by a human!
 
