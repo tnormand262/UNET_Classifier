@@ -58,7 +58,7 @@ Here are a few examples of geolocated shape files that the model has run on. The
 |![image](https://github.com/tnormand262/UNET_Classifier/assets/160414926/98969a2f-51c8-4c58-aebc-9a26522ce398)|
 | Predicted Image |        
 |![image](https://github.com/tnormand262/UNET_Classifier/assets/160414926/df208fec-b1e2-41ff-ae8c-c4c910cde303)|
-Note: The model has never been shown these images before and is classifying each image in under 1min30s on the machine I was using.
+Note: The model has never been shown these images before and is classifying each image in under 1min30s.
 
 
 **Future Improvements**
